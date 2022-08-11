@@ -49,4 +49,8 @@ for i in range(1, 101):
     else:
         print(i)
 
+# Task 6 Divisible of 7 & not multiple of 5
 
+for i in range(1000, 2001):
+    if i%7==0 and i%5!=0:
+        print(i)
